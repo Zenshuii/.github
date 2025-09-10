@@ -1,0 +1,30 @@
+name: Reusable CI
+# Usage:
+# In a repo, create a workflow that calls this one:
+#
+# name: CI
+# on: [push, pull_request]
+# jobs:
+#   use-org-ci:
+#     uses: zenshuii/.github/.github/workflows/ci.yml@main
+#     with:
+#       run: npm test
+
+on:
+  workflow_call:
+    inputs:
+      run:
+        description: Command to run for tests or checks
+        required: false
+        default: echo "No tests configured"
+        type: string
+
+jobs:
+  run:
+    name: Run checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run command
+        run: ${{ inputs.run }}

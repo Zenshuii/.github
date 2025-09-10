@@ -7,7 +7,7 @@ Zenshuii is a studio/company focused on blending technology and mindfulness. Our
 
 ## Projects
 - **Stoic App** _(Coming Soon)_: A modern app for practicing Stoicism and daily reflection. [stoic-app.com](https://stoic-app.com/)
-- More apps and projects coming soon!- More apps and projects coming soon!
+- More apps and projects coming soon!
 
 ## Get Involved
 Interested in collaborating or joining the team? Reach out via [sim@zenshuii.com](mailto:sim@zenshuii.com) or connect on [Instagram](https://instagram.com/zenshuii).
